@@ -1,4 +1,4 @@
-# EigenBets: AI-Powered Prediction Markets
+# Betify: AI-Powered Prediction Markets
 
 This project implements a decentralized prediction market platform with three core components:
 
@@ -98,13 +98,13 @@ The AVS component serves as a critical infrastructure element that ensures relia
 - Isolated Docker network prevents external tampering
 - Input validation guards against injection attacks
 
-The AVS ensures that EigenBets prediction markets are resolved based on accurate, verifiable, and tamper-resistant data, creating trust in the prediction market ecosystem.
+The AVS ensures that Betify prediction markets are resolved based on accurate, verifiable, and tamper-resistant data, creating trust in the prediction market ecosystem.
 
 ---
 
 ## Flutter Frontend
 
-The cross-platform frontend provides an intuitive interface for interacting with the EigenBets prediction markets:
+The cross-platform frontend provides an intuitive interface for interacting with the Betify prediction markets:
 
 ### Key Features
 - **Market Browsing**: Interactive dashboard to view available prediction markets with real-time odds and market details.
@@ -141,7 +141,7 @@ The cross-platform frontend provides an intuitive interface for interacting with
 - **Asset Management**: Optimized assets for different platforms and screen densities.
 
 ### Screens
-- **Landing Page**: Introduction to EigenBets with wallet connection prompts
+- **Landing Page**: Introduction to Betify with wallet connection prompts
 - **Dashboard**: Personalized view of active bets and relevant markets
 - **Markets**: Filterable list of all available prediction markets
 - **Betting Screen**: Detailed view for placing and managing bets on a specific market
