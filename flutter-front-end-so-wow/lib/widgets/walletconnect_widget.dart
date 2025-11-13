@@ -56,9 +56,9 @@ class _WalletConnectWidgetState extends State<WalletConnectWidget> {
       connector: WalletConnect(
         bridge: 'https://bridge.walletconnect.org',
         clientMeta: const PeerMeta(
-          name: 'EigenBet',
+          name: 'Betify',
           description: 'A decentralized prediction markets platform',
-          url: 'https://eigenbet.xyz',
+          url: 'https://betify.xyz',
           icons: [
             'https://raw.githubusercontent.com/walletconnect/walletconnect-assets/master/Icon/Gradient/Icon.png'
           ],

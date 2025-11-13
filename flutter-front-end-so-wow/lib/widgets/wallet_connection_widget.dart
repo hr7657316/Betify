@@ -58,7 +58,7 @@ class WalletConnectionWidget extends StatelessWidget {
           Padding(
             padding: const EdgeInsets.fromLTRB(24, 20, 24, 12),
             child: Text(
-              'Choose your preferred wallet to connect with EigenBet',
+              'Choose your preferred wallet to connect with Betify',
               style: theme.textTheme.bodyMedium?.copyWith(
                 color: theme.colorScheme.onSurface.withOpacity(0.8),
               ),

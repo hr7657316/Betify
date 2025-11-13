@@ -94,7 +94,7 @@ class WebviewManager {
             },
           ),
         )
-        ..setUserAgent('EigenBet-App/1.0')
+  ..setUserAgent('Betify-App/1.0')
         ..loadRequest(Uri.parse(url));
       
       // Show WebView in fullscreen dialog
@@ -102,7 +102,7 @@ class WebviewManager {
         MaterialPageRoute(
           builder: (context) => Scaffold(
             appBar: AppBar(
-              title: Text(isLoading ? 'Loading...' : 'EigenBet'),
+              title: Text(isLoading ? 'Loading...' : 'Betify'),
               actions: [
                 if (isLoading)
                   Container(

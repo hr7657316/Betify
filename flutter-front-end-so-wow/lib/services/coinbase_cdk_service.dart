@@ -109,7 +109,7 @@ class CoinbaseCdkService extends ChangeNotifier {
         headers: {
           'Content-Type': 'application/json',
           'X-API-Key': _apiKey,
-          'User-Agent': 'EigenBet-Flutter-App',
+          'User-Agent': 'Betify-Flutter-App',
         },
         body: jsonEncode({
           'client_id': _clientId,
@@ -396,7 +396,7 @@ class CoinbaseCdkService extends ChangeNotifier {
           },
         ),
       )
-      ..setUserAgent('EigenBet-App')
+  ..setUserAgent('Betify-App')
       ..loadRequest(Uri.parse(url));
     
     // Show dialog with WebView
@@ -507,10 +507,10 @@ class CoinbaseCdkService extends ChangeNotifier {
         headers: {
           'Content-Type': 'application/json',
           'Authorization': 'Bearer $_accessToken',
-          'User-Agent': 'EigenBet-Flutter-App',
+          'User-Agent': 'Betify-Flutter-App',
         },
         body: jsonEncode({
-          'name': 'EigenBet Predictions Wallet',
+          'name': 'Betify Predictions Wallet',
           'network': ApiConfig.defaultNetwork,
         }),
       );

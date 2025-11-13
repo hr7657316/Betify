@@ -1,8 +1,8 @@
-# EigenBet: Decentralized Prediction Markets Platform with AVS Integration
+# Betify: Decentralized Prediction Markets Platform with AVS Integration
 
 ## Project Overview
 
-EigenBet is an advanced decentralized prediction market platform built on Ethereum's Layer 2 networks, with integrated AVS (Automated Verification Services) for secure and reliable market resolution. The platform allows users to create, participate in, and trade prediction market outcomes across a variety of categories including crypto, finance, sports, politics, and technology.
+Betify is an advanced decentralized prediction market platform built on Ethereum's Layer 2 networks, with integrated AVS (Automated Verification Services) for secure and reliable market resolution. The platform allows users to create, participate in, and trade prediction market outcomes across a variety of categories including crypto, finance, sports, politics, and technology.
 
 This repository contains the Flutter-based frontend implementation that provides a seamless and intuitive interface for interacting with prediction markets across mobile, desktop, and web platforms.
 
@@ -167,8 +167,8 @@ Contract interaction occurs through the `Web3Service` class which abstracts the 
 
 1. Clone the repository
 ```bash
-git clone https://github.com/yourusername/eigenbet-frontend.git
-cd eigenbet-frontend
+git clone https://github.com/yourusername/betify-frontend.git
+cd betify-frontend
 ```
 
 2. Install dependencies

@@ -84,7 +84,7 @@ class PredictionMarketApp extends StatelessWidget {
     });
     
     return MaterialApp(
-      title: 'EigenBet',
+      title: 'Betify',
       debugShowCheckedModeBanner: false,
       theme: AppTheme.darkTheme,
       home: const MainAppScaffold(),
@@ -203,7 +203,7 @@ class _MainAppScaffoldState extends State<MainAppScaffold> {
                         const SizedBox(width: 12),
                         Expanded(
                           child: Text(
-                            'EigenBet',
+                            'Betify',
                             style: Theme.of(context).textTheme.titleMedium?.copyWith(
                               color: Theme.of(context).colorScheme.primary,
                               fontWeight: FontWeight.bold,

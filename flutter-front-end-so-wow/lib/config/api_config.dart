@@ -4,10 +4,10 @@ class ApiConfig {
   static const String cdkApiKey = String.fromEnvironment('COINBASE_API_KEY', 
       defaultValue: 'cdk_api_key_123456789'); // Replace with env variables
   static const String cdkClientId = String.fromEnvironment('COINBASE_CLIENT_ID',
-      defaultValue: 'eigenbet_app_12345');
+      defaultValue: 'betify_app_12345');
   static const String cdkClientSecret = String.fromEnvironment('COINBASE_CLIENT_SECRET',
-      defaultValue: 'eigenbet_secret_12345');
-  static const String cdkRedirectUri = 'com.eigenbet.app://oauth';
+      defaultValue: 'betify_secret_12345');
+  static const String cdkRedirectUri = 'com.betify.app://oauth';
   
   // API endpoints
   static const String cdkApiBaseUrl = 'https://cdk.coinbase.com/api/v1';
@@ -15,8 +15,8 @@ class ApiConfig {
   
   // Coinbase Onramp Configuration
   static const String onrampClientId = String.fromEnvironment('COINBASE_ONRAMP_CLIENT_ID',
-      defaultValue: 'eigenbet_onramp_12345');
-  static const String onrampAppName = 'EigenBet Predictions';
+      defaultValue: 'betify_onramp_12345');
+  static const String onrampAppName = 'Betify Predictions';
   static const String onrampBaseUrl = 'https://pay.coinbase.com';
   
   // Wallet configuration

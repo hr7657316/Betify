@@ -1,4 +1,4 @@
-# EigenBet Frontend Development Guide
+# Betify Frontend Development Guide
 
 ## Build/Testing Commands
 - Run app: `flutter run`

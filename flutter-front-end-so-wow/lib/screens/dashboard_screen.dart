@@ -52,7 +52,7 @@ class _DashboardScreenState extends State<DashboardScreen> with SingleTickerProv
 
     return Scaffold(
       appBar: AppBar(
-        title: const Text('EigenBets Predictions Dashboard'),
+        title: const Text('Betify Predictions Dashboard'),
         actions: [
           IconButton(
             icon: const Icon(Icons.notifications_outlined),

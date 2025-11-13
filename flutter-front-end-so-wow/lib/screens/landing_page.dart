@@ -38,7 +38,7 @@ class _LandingPageState extends State<LandingPage> with TickerProviderStateMixin
     'Reddit': 'https://www.reddit.com/r/EigenLayer/?rdt=36109',
   };
 
-  final String _contactEmail = 'eigenbet@example.com';
+  final String _contactEmail = 'betify@example.com';
   
   @override
   void initState() {
@@ -217,7 +217,7 @@ class _LandingPageState extends State<LandingPage> with TickerProviderStateMixin
               ),
               const SizedBox(width: 8),
               Text(
-                'EigenBets',
+                'Betify',
                 style: theme.textTheme.titleLarge?.copyWith(
                   color: Colors.white,
                   fontWeight: FontWeight.bold,
@@ -600,7 +600,7 @@ class _LandingPageState extends State<LandingPage> with TickerProviderStateMixin
       child: Column(
         children: [
           Text(
-            'Why Choose EigenBet',
+            'Why Choose Betify',
             style: theme.textTheme.headlineMedium?.copyWith(
               color: Colors.white,
               fontWeight: FontWeight.bold,
@@ -942,7 +942,7 @@ class _LandingPageState extends State<LandingPage> with TickerProviderStateMixin
             mainAxisAlignment: MainAxisAlignment.spaceBetween,
             children: [
               Text(
-                '© 2025 EigenBet Demo. Hackathon Project.',
+                '© 2025 Betify Demo. Hackathon Project.',
                 style: theme.textTheme.bodySmall?.copyWith(
                   color: Colors.white.withOpacity(0.5),
                 ),

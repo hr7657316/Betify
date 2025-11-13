@@ -168,7 +168,7 @@ class _Web3WalletConnectorState extends State<Web3WalletConnector> {
         children: [
           // Message
           Text(
-            'Connect your wallet to access EigenBet',
+            'Connect your wallet to access Betify',
             style: theme.textTheme.bodyMedium?.copyWith(
               color: theme.colorScheme.onSurface.withOpacity(0.8),
               fontWeight: FontWeight.w500,

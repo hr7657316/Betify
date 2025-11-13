@@ -351,7 +351,7 @@ class Web3Service extends ChangeNotifier {
         }
       } else {
         // Mobile implementation using deep linking
-        final url = Uri.parse('https://metamask.app.link/dapp/${Uri.encodeFull('https://eigenbet.xyz')}');
+        final url = Uri.parse('https://metamask.app.link/dapp/${Uri.encodeFull('https://betify.xyz')}');
         final canLaunch = await canLaunchUrl(url);
         
         if (canLaunch) {
@@ -551,7 +551,7 @@ class Web3Service extends ChangeNotifier {
         }
       } else {
         // Mobile implementation using deep linking
-        final url = Uri.parse('https://go.cb-w.com/dapp?cb_url=${Uri.encodeFull('https://eigenbet.xyz')}');
+        final url = Uri.parse('https://go.cb-w.com/dapp?cb_url=${Uri.encodeFull('https://betify.xyz')}');
         final canLaunch = await canLaunchUrl(url);
         
         if (canLaunch) {

@@ -81,7 +81,7 @@ class DeepLinkHandler {
       final uri = Uri.parse(link);
       
       // Handle Coinbase OAuth callback - update with the new redirect URI
-      if (link.startsWith('com.eigenbet.app://oauth')) {
+  if (link.startsWith('com.betify.app://oauth')) {
         // Extract the authorization code
         final code = uri.queryParameters['code'];
         
@@ -93,12 +93,12 @@ class DeepLinkHandler {
       }
       
       // Handle Coinbase Onramp callback - update with the new redirect URI
-      if (link.contains('com.eigenbet.app://onramp')) {
+  if (link.contains('com.betify.app://onramp')) {
         _handleOnrampCallback(context, uri.queryParameters);
       }
       
       // Handle universal links/app links
-      if (link.startsWith('https://eigenbet.app/callback')) {
+  if (link.startsWith('https://betify.app/callback')) {
         final code = uri.queryParameters['code'];
         if (code != null) {
           _handleOAuthCallback(context, code);

@@ -73,8 +73,8 @@ class MarketData {
       ),
       MarketData(
         id: '2',
-        title: 'Will the EigenBet Project by @coledermo and @ImTheBigP reach top 6 in EigenGames by @BuildOnEigen?',
-        description: 'This market resolves to YES if the EigenBet project, developed by Cole Dermott and Paul Baldwin, places in the top 6 projects in the EigenGames hackathon organized by EigenLayer.',
+        title: 'Will the Betify Project by @coledermo and @ImTheBigP reach top 6 in EigenGames by @BuildOnEigen?',
+        description: 'This market resolves to YES if the Betify project, developed by Cole Dermott and Paul Baldwin, places in the top 6 projects in the EigenGames hackathon organized by EigenLayer.',
         category: 'Hackathon',
         yesPrice: 1.0,
         noPrice: 0.0,
@@ -82,7 +82,7 @@ class MarketData {
         expiryDate: DateTime(currentYear, 3, 15),
         imageUrl: 'assets/images/eigenlayer.png',
         // Special pattern for this market - steadily increasing price history
-        priceHistory: _generateEigenBetSpecialPriceHistory(0.55, 1.0, 30),
+        priceHistory: _generateBetifySpecialPriceHistory(0.55, 1.0, 30),
         status: MarketStatus.open,
       ),
       MarketData(
@@ -217,9 +217,9 @@ class MarketData {
     return priceHistory;
   }
   
-  // Special method for generating the EigenBet price history
+  // Special method for generating the Betify price history
   // Shows strong confidence with consistent uptrend
-  static List<PricePoint> _generateEigenBetSpecialPriceHistory(double startPrice, double endPrice, int days) {
+  static List<PricePoint> _generateBetifySpecialPriceHistory(double startPrice, double endPrice, int days) {
     List<PricePoint> priceHistory = [];
     double currentPrice = startPrice;
     
